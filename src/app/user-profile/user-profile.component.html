@@ -1,0 +1,6 @@
+<p><img src={{user.photo}} alt='user.name'></p>
+<p><input [(ngModel)]="user.quote"></p>
+citation : {{user.quote}}
+<p [hidden]='user.afficher'>{{user.age}} ans</p>
+<p>{{user.name}} {{user.firstName}}</p>
+<button (click)="isHidden()">afficher ou non mon âge</button>
